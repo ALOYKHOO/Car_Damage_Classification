@@ -110,7 +110,7 @@ model_paths = {
     "CNN": "Model/car_damage_cnn.pth"
 }
 
-model_type = st.selectbox("Choose a model(TESTING):", list(model_paths.keys()))
+model_type = st.selectbox("Choose a model:", list(model_paths.keys()))
 
 
 
